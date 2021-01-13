@@ -1,0 +1,65 @@
+body{
+  font-family: 'Lora', serif;
+}
+header{
+  height: 70px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+#logo{
+  text-align: center;
+  vertical-align: middle;
+}
+#logo-text{
+  font-size: 40px;
+  vertical-align: middle;
+}
+.container{
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.top{
+  height: 50px;
+  padding: 0 50px;
+  line-height: 50px;
+  background-color: #00ffe2a1;
+}
+.button{
+border: 1px solid;
+padding: 5px 10px;
+border-radius: 5px;
+}
+.button-filled{
+  font-style: oblique;
+}
+.tasks{
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #00ffe2a1;
+}
+ul{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+li{
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  font-size: 15px;
+}
+.tag-type{
+  background-color: blue;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 10px;
+  color: white;
+  box-sizing: border-box;
+}
